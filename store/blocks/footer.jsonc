@@ -4,14 +4,8 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "sticky-layout#footer"
+      "flex-layout.row#footer"
     ]
-  },
-  "sticky-layout#footer": {
-    "props": {
-      "blockClass": "sticky-footer"
-    },
-    "children": ["flex-layout.row#footer"]
   },
   "footer-layout.mobile": { 
     "children": [
@@ -47,7 +41,7 @@
   },
   "link.product#footer-shop": {
     "props": {
-      "href": "/shop",
+      "href": "/",
       "label": "Loja",
       "displayMode": "button",
       "blockClass": "footerLink"

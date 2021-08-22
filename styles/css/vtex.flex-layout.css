@@ -7,9 +7,39 @@
 /* price and button more details - product-summary */
 .flexRow--priceAndLinkDetails {
   margin-top: 2rem;
+  padding: 0 .5rem;
 }
 
 /* result customQuery */
 .flexCol--resultSearch {
   max-width: 960px;
+}
+
+/* footer */
+.flexRowContent--footer {
+  max-width: 960px;
+  margin-inline: auto;
+}
+.flexRow--footer {
+  background-color: #424242;
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+  bottom: 0;
+}
+
+/* page product details */
+.flexRow--productPage {
+  width: 960px;
+  margin-inline: auto;
+}
+.flexRow--descriptionProduct {
+  background-color: #424242;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 7rem;
+}
+.flexRow--productShippingBuyButton :global(.vtex-button) {
+  height: 50px;
+  margin-top: 1rem;
 }

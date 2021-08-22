@@ -16,5 +16,8 @@
 }
 .containerNormal--resultSearchItem {
   width: 350px!important;
-
+}
+.element--resultSearchItem {
+  background: #424242;
+  border-radius: 5px;
 }

@@ -1,3 +1,26 @@
+/* button more details */
 .buttonLink--moreDetails {
   width: 300px!important;
+}
+.label--moreDetails {
+  font-size: .775rem;
+  font-weight: 500;
+}
+
+/* footer */
+.link--footerLink, .buttonLink--footerLink {
+  background: transparent;
+  border: none;
+  color: #f9faf8;
+  font-size: .875rem;
+  padding: 1.5rem;
+}
+.link--footerLink:hover, .buttonLink--footerLink:hover {
+  background: transparent;
+  border: none;
+  color: #59FF02;
+}
+.link--footerLink:focus, .buttonLink--footerLink:focus {
+  background: transparent;
+  color: #f9faf8;
 }

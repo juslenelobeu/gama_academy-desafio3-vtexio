@@ -6,6 +6,7 @@
   border: none;
   border-bottom: thin solid #ebeeea;
   border-radius: 0;
+  color: #ebeeea;
 }
 :global(.vtex-styleguide-9-x-input) {
   padding: 1rem 0;
@@ -35,4 +36,32 @@
 }
 .productImagesGallerySlide {
   width: 100%!important;
+}
+
+/* product page details */
+.carouselContainer--productImage {
+  margin: 2rem 0;
+}
+
+.productNameContainer--productName {
+  color: #ebeeea;
+}
+.sellingPrice {
+  color: #ebeeea;
+  text-align: right;
+}
+.productDescriptionContainer {
+  margin: 2rem 0;
+}
+.productDescriptionTitle {
+  color: #ebeeea;
+}
+.shippingContainer{
+  max-width: 400px;
+}
+.shippingContainer :global(.vtex-address-form-4-x-input) {
+  color: #ebeeea;
+}
+.shippingContainer :global(.vtex-input__label) {
+  color: #ebeeea;
 }
