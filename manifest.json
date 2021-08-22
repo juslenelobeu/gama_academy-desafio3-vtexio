@@ -1,7 +1,7 @@
 {
   "vendor": "hiringcoders2021",
   "name": "desafio-3-juslenelobeu",
-  "version": "0.1.1",
+  "version": "0.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
