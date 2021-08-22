@@ -1,0 +1,24 @@
+/* tab list */
+.listContainer--tabList {
+  background-color: #212121;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* list item tab */
+.listItem--tabList :global(.vtex-button) {
+  background: transparent;
+  border: none;
+}
+.listItem--tabList :global(.vtex-button__label) {
+  color: #f9faf8;
+}
+.listItemActive--tabList :global(.vtex-button__label) {
+  color: #59FF02;
+}
+.listItem--tabList {
+  border-bottom: 2px solid #212121;
+  transition: border-bottom .5s;
+}
+.listItemActive--tabList {
+  border-bottom: 2px solid #59FF02;
+}

@@ -1,0 +1,20 @@
+/* brand product list */
+.productBrand, .brandName {
+  color: #f9faf8;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.clearLink--resultSearchItem {
+  text-decoration: none;
+}
+
+/* container product summary */
+.container--resultSearchItem {
+  width: 350px!important;
+  margin-inline: auto;
+}
+.containerNormal--resultSearchItem {
+  width: 350px!important;
+
+}

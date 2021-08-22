@@ -1,0 +1,62 @@
+{
+  "search-result-layout.customQuery#guerreiros": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal/guerreiros",
+        "mapField": "c,c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#guerreiros"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#guerreiros": {
+    "children": [
+      "flex-layout.row#guerreiros"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#guerreiros": {
+    "children": [ 
+      "flex-layout.col#guerreiros"
+    ]
+  },
+  "flex-layout.col#guerreiros": {
+    "children": [
+      "search-content#guerreiros"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#guerreiros": { 
+    "blocks": ["gallery#guerreiros", "not-found"]
+  },
+  "gallery#guerreiros": {
+    "blocks": ["product-summary.shelf#guerreiros"]
+  },
+  "product-summary.shelf#guerreiros": {
+    "children": [
+      "product-summary-name",
+      "product-images#guerreiros",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#guerreiros": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  }
+}

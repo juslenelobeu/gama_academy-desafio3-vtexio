@@ -1,0 +1,8 @@
+.sellingPrice--priceValue {
+  display: flex;
+  align-items: center;
+  color: #59FF02;
+  font-weight: 700;
+  width: 100px;
+  flex: 1;
+}

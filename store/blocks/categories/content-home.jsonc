@@ -1,0 +1,86 @@
+{
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal",
+        "mapField": "c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home": {
+    "children": [
+      "flex-layout.row#home"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#home": {
+    "children": [ 
+      "flex-layout.col#home"
+    ]
+  },
+  "flex-layout.col#home": {
+    "children": [
+      "search-content#home"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#home": { 
+    "blocks": ["gallery#home", "not-found"]
+  },
+  "gallery#home": {
+    "blocks": ["product-summary.shelf#home"],
+    "props": {
+      "blockClass": "galleryHome"
+    }
+  },
+  "product-summary.shelf#home": {
+    "children": [
+      "product-summary-name",
+      "product-images#home",
+      "flex-layout.row#priceAndLinkDetails"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#home": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "zoomMode": "disabled"
+    }
+  },
+  "flex-layout.row#priceAndLinkDetails": {
+    "children": [
+      "product-selling-price#home",
+      "link.product#detailsProduct#home"
+    ],
+    "props": {
+      "blockClass": "priceAndLinkDetails"
+    }
+  },
+  "link.product#detailsProduct#home": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver detalhes",
+      "displayMode": "button",
+      "blockClass": "moreDetails"
+    }
+  },
+  "product-selling-price#home": {
+    "props": {
+      "blockClass": "priceValue"
+    }
+  }
+}

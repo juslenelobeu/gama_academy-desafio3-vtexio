@@ -1,0 +1,38 @@
+/* search bar */
+.autoCompleteOuterContainer--searchBarHeader {
+  width: 700px;
+}
+:global(.vtex-input-prefix__group) {
+  border: none;
+  border-bottom: thin solid #ebeeea;
+  border-radius: 0;
+}
+:global(.vtex-styleguide-9-x-input) {
+  padding: 1rem 0;
+  background: transparent;
+}
+:global(.vtex-input__suffix) {
+  background: transparent;
+  padding: 0;
+}
+.searchBarIcon--searchBarHeader {
+  color: #59FF02;
+}
+
+/* slide image */
+.imageElement--sliderImageHome {
+  border-radius: 20px;
+}
+
+/* force hidden thumbnails - product-summary list */
+.carouselGaleryThumbs {
+  display: none;
+}
+.carouselGaleryCursor {
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+}
+.productImagesGallerySlide {
+  width: 100%!important;
+}

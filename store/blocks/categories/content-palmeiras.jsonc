@@ -1,0 +1,62 @@
+{
+  "search-result-layout.customQuery#palmeiras": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal/palmeiras",
+        "mapField": "c,c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#palmeiras"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#palmeiras": {
+    "children": [
+      "flex-layout.row#palmeiras"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#palmeiras": {
+    "children": [ 
+      "flex-layout.col#palmeiras"
+    ]
+  },
+  "flex-layout.col#palmeiras": {
+    "children": [
+      "search-content#palmeiras"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#palmeiras": { 
+    "blocks": ["gallery#palmeiras", "not-found"]
+  },
+  "gallery#palmeiras": {
+    "blocks": ["product-summary.shelf#palmeiras"]
+  },
+  "product-summary.shelf#palmeiras": {
+    "children": [
+      "product-summary-name",
+      "product-images#palmeiras",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#palmeiras": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  }
+}

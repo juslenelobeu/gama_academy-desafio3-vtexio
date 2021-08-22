@@ -1,0 +1,62 @@
+{
+  "search-result-layout.customQuery#promocao": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal/promocao",
+        "mapField": "c,c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#promocao"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#promocao": {
+    "children": [
+      "flex-layout.row#promocao"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#promocao": {
+    "children": [ 
+      "flex-layout.col#promocao"
+    ]
+  },
+  "flex-layout.col#promocao": {
+    "children": [
+      "search-content#promocao"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#promocao": { 
+    "blocks": ["gallery#promocao", "not-found"]
+  },
+  "gallery#promocao": {
+    "blocks": ["product-summary.shelf#promocao"]
+  },
+  "product-summary.shelf#promocao": {
+    "children": [
+      "product-summary-name",
+      "product-images#promocao",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#promocao": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  }
+}

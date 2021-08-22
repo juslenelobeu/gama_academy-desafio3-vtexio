@@ -1,0 +1,15 @@
+  /* top */
+.flexRow--top {
+  background-color: #212121;
+  padding: .5rem 1rem;
+}
+
+/* price and button more details - product-summary */
+.flexRow--priceAndLinkDetails {
+  margin-top: 2rem;
+}
+
+/* result customQuery */
+.flexCol--resultSearch {
+  max-width: 960px;
+}

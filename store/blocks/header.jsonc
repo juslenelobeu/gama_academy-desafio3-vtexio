@@ -47,14 +47,14 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["image#logo"]
+    "children": ["logo"]
   },
-  "image#logo": {
+  "logo": {
     "props": {
-      "href": "/",
+      "title": "Logo",
+      "href": "https://desafio3juslenelobeu--hiringcoders2021.myvtex.com/",
       "src": "assets/brand/upmedal_logo.png",
-      "maxWidth": 150,
-      "blockClass": "logo"
+      "width": 150
     }
   },
   "header-layout.mobile": {
@@ -66,7 +66,7 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "image#logo",
+      "logo",
       "flex-layout.col#spacer",
       "minicart.v2"
     ],

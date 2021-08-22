@@ -1,0 +1,62 @@
+{
+  "search-result-layout.customQuery#divertidos": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal/divertidos",
+        "mapField": "c,c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#divertidos"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#divertidos": {
+    "children": [
+      "flex-layout.row#divertidos"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#divertidos": {
+    "children": [ 
+      "flex-layout.col#divertidos"
+    ]
+  },
+  "flex-layout.col#divertidos": {
+    "children": [
+      "search-content#divertidos"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#divertidos": { 
+    "blocks": ["gallery#divertidos", "not-found"]
+  },
+  "gallery#divertidos": {
+    "blocks": ["product-summary.shelf#divertidos"]
+  },
+  "product-summary.shelf#divertidos": {
+    "children": [
+      "product-summary-name",
+      "product-images#divertidos",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#divertidos": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "search-result-layout.customQuery#7-maravilhas": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal/7-maravilhas",
+        "mapField": "c,c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#7-maravilhas"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#7-maravilhas": {
+    "children": [
+      "flex-layout.row#7-maravilhas"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#7-maravilhas": {
+    "children": [ 
+      "flex-layout.col#7-maravilhas"
+    ]
+  },
+  "flex-layout.col#7-maravilhas": {
+    "children": [
+      "search-content#7-maravilhas"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#7-maravilhas": { 
+    "blocks": ["gallery#7-maravilhas", "not-found"]
+  },
+  "gallery#7-maravilhas": {
+    "blocks": ["product-summary.shelf#7-maravilhas"]
+  },
+  "product-summary.shelf#7-maravilhas": {
+    "children": [
+      "product-summary-name",
+      "product-images#7-maravilhas",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#7-maravilhas": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  }
+}

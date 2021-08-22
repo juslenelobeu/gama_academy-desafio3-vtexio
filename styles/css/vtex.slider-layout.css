@@ -1,0 +1,33 @@
+/* slide container */
+.sliderLayoutContainer--sliderHome {
+  margin-top: 2rem;
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+/* slider Track container */
+.sliderTrackContainer--sliderHome {
+  margin-bottom: 2rem;
+}
+
+/* slider arrows */
+.sliderArrows--sliderHome {
+  bottom: 0;
+  margin-top: 3rem;
+}
+.caretIcon--sliderHome {
+  color: #6E6E6E;
+}
+
+/* pagination dots */
+.paginationDotsContainer--sliderHome {
+  padding: .5rem;
+  width: 50%;
+  margin-inline: auto;
+}
+.paginationDot--sliderHome {
+  background-color: #6E6E6E;
+}
+.paginationDot--sliderHome--isActive {
+  background-color: #59FF02;
+}

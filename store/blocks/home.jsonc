@@ -1,12 +1,77 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "tab-layout#home"
     ]
   },
-  "rich-text": { 
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2"
+    ],
+    "props": {
+      "blockClass": "tabList"
+    }
+  },
+  "tab-list.item#home1": {
+   "props": {
+     "tabId": "home1",
+     "label": "",
+     "blockClass": "tabList",
+     "defaultActiveTab": true
+   }
+ },
+ "tab-list.item#home2": {
+   "props": {
+     "tabId": "home2",
+     "label": "Home 2",
+     "blockClass": "tabList"
+   }
+ },
+  "tab-content#home": {
+    "children": [
+      "slider-layout#home",
+      "tab-content.item#home1",
+      "tab-content.item#home2"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "search-result-layout.customQuery#home"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": [
+      "rich-text#home2"
+    ],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "rich-text#home1": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "# Home 1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#home2": { 
+    "props": { 
+      "text": "# Home 2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"

@@ -1,0 +1,62 @@
+{
+  "search-result-layout.customQuery#album-1": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal/album-1",
+        "mapField": "c,c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#album-1"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#album-1": {
+    "children": [
+      "flex-layout.row#album-1"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#album-1": {
+    "children": [ 
+      "flex-layout.col#album-1"
+    ]
+  },
+  "flex-layout.col#album-1": {
+    "children": [
+      "search-content#album-1"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#album-1": { 
+    "blocks": ["gallery#album-1", "not-found"]
+  },
+  "gallery#album-1": {
+    "blocks": ["product-summary.shelf#album-1"]
+  },
+  "product-summary.shelf#album-1": {
+    "children": [
+      "product-summary-name",
+      "product-images#album-1",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#album-1": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  }
+}

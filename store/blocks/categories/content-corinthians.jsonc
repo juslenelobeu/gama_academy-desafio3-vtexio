@@ -1,0 +1,62 @@
+{
+  "search-result-layout.customQuery#corinthians": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit-upmedal/corinthians",
+        "mapField": "c,c"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#corinthians"
+      // "search-result-layout.mobile",
+      // "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#corinthians": {
+    "children": [
+      "flex-layout.row#corinthians"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#corinthians": {
+    "children": [ 
+      "flex-layout.col#corinthians"
+    ]
+  },
+  "flex-layout.col#corinthians": {
+    "children": [
+      "search-content#corinthians"
+    ],
+    "props": {
+      "blockClass": "resultSearch"
+    }
+  },
+  "search-content#corinthians": { 
+    "blocks": ["gallery#corinthians", "not-found"]
+  },
+  "gallery#corinthians": {
+    "blocks": ["product-summary.shelf#corinthians"]
+  },
+  "product-summary.shelf#corinthians": {
+    "children": [
+      "product-summary-name",
+      "product-images#corinthians",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "resultSearchItem"
+    }
+  },
+  "product-images#corinthians": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  }
+}
