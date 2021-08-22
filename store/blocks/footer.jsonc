@@ -4,8 +4,14 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "sticky-layout#footer"
     ]
+  },
+  "sticky-layout#footer": {
+    "props": {
+      "blockClass": "sticky-footer"
+    },
+    "children": ["flex-layout.row#footer"]
   },
   "footer-layout.mobile": { 
     "children": [
@@ -14,13 +20,46 @@
   },
   "flex-layout.row#footer": { 
     "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "link.product#footer-account",
+      "link.product#footer-challenges",
+      "link.product#footer-shop",
+      "link.product#footer-support"
+    ],
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "footer"
+    }
+  },
+  "link.product#footer-account": {
+    "props": {
+      "href": "/account",
+      "label": "Entrar",
+      "displayMode": "button",
+      "blockClass": "footerLink"
+    }
+  },
+  "link.product#footer-challenges": {
+    "props": {
+      "href": "/",
+      "label": "Desafios",
+      "displayMode": "button",
+      "blockClass": "footerLink"
+    }
+  },
+  "link.product#footer-shop": {
+    "props": {
+      "href": "/shop",
+      "label": "Loja",
+      "displayMode": "button",
+      "blockClass": "footerLink"
+    }
+  },
+  "link.product#footer-support": {
+    "props": {
+      "href": "https://api.whatsapp.com/send?l=pt-BR&phone=5511964335064&text=Para%20falar%20com%20a%20Gabi%20Clique%20enviar",
+      "target": "_blank",
+      "label": "Suporte",
+      "displayMode": "button",
+      "blockClass": "footerLink"
     }
   }
 }
