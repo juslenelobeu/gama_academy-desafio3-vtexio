@@ -48,24 +48,27 @@ Link do workspace desse desafio
 ## Tasks
 
 1. O que precisa cumprir para esse desafio:
- - [ ]  Flex layout - [https://vtex.io/docs/components/all/vtex.flex-layout@0.17.0/](https://vtex.io/docs/components/all/vtex.flex-layout@0.17.0/)
- - [ ]  Criar arquivos em .jsonc para colocar os comentários de seus blocos
- - [ ]  Slider layout para mostrar produtos em destaque - [https://vtex.io/docs/app/vtex.slider-layout](https://vtex.io/docs/app/vtex.slider-layout)
- - [ ]  Criar componente Tab layout para separar produtos por categoria - [https://vtex.io/docs/components/all/vtex.tab-layout@0.4.3/](https://vtex.io/docs/components/all/vtex.tab-layout@0.4.3/)
- - [ ]  Criar um bloco de lista de produto - [https://vtex.io/docs/app/vtex.product-list@0.31.0/](https://vtex.io/docs/app/vtex.product-list@0.31.0/)
+ - [ X ]  Flex layout - [https://vtex.io/docs/components/all/vtex.flex-layout@0.17.0/](https://vtex.io/docs/components/all/vtex.flex-layout@0.17.0/)
+ - [ X ]  Criar arquivos em .jsonc para colocar os comentários de seus blocos
+ - [ X ]  Slider layout para mostrar produtos em destaque - [https://vtex.io/docs/app/vtex.slider-layout](https://vtex.io/docs/app/vtex.slider-layout)
+ - [ X ]  Criar componente Tab layout para separar produtos por categoria - [https://vtex.io/docs/components/all/vtex.tab-layout@0.4.3/](https://vtex.io/docs/components/all/vtex.tab-layout@0.4.3/)
+ - [ X ]  Criar um bloco de lista de produto - [https://vtex.io/docs/app/vtex.product-list@0.31.0/](https://vtex.io/docs/app/vtex.product-list@0.31.0/)
 
      Sugestão paginado por 8 itens da categoria
 
- - [ ]  Criar Minicart para lista dos produtos no carrinho - [https://vtex.io/docs/components/content-blocks/vtex.minicart@2.60.0/](https://vtex.io/docs/components/content-blocks/vtex.minicart@2.60.0/)
- - [ ]  Ao clicar no produto ir para a tela com Product Summary - [https://vtex.io/docs/components/all/vtex.product-summary@2.53.0/](https://vtex.io/docs/components/all/vtex.product-summary@2.53.0/)
+ - [ X ]  Criar Minicart para lista dos produtos no carrinho - [https://vtex.io/docs/components/content-blocks/vtex.minicart@2.60.0/](https://vtex.io/docs/components/content-blocks/vtex.minicart@2.60.0/)
+ - [ X ]  Ao clicar no produto ir para a tela com Product Summary - [https://vtex.io/docs/components/all/vtex.product-summary@2.53.0/](https://vtex.io/docs/components/all/vtex.product-summary@2.53.0/)
  - [ ]  Layout mobile
  - [ ]  Criar um componente customizado para falar com suporte no whatsapp, no rodapé
      - [ ]  Utilizar o Vtex Components com React - [https://vtex.io/docs/components/all/vtex.store-components@3.150.0/](https://vtex.io/docs/components/all/vtex.store-components@3.150.0/)
      - [ ]  API whatsapp - [https://www.convertte.com.br/gerador-link-whatsapp/](https://www.convertte.com.br/gerador-link-whatsapp/)
- - [ ]  Criar um componente customizado para cadastrar leads (possíveis clientes prospectos)
+ - [ X ]  Criar um componente customizado para cadastrar leads (possíveis clientes prospectos)
  ○ Nome
  ○ Email
  ○ Telefone
+
+## Este componente Form Lead esta salvando no localStorage
+Link do componente [https://github.com/juslenelobeu/store-block-template-vtex-io](https://github.com/juslenelobeu/store-block-template-vtex-io)
 
 Este componente pode servir de isca digital, fazendo dando uma bonificação para o prospecto que preencher as informações da lead.
 Utilizar o Vtex Componentes com React para criar o componente - [https://vtex.io/docs/components/all/vtex.store-components@3.150.0/](https://vtex.io/docs/components/all/vtex.store-components@3.150.0/)
