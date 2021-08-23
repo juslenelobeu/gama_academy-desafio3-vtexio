@@ -4,6 +4,17 @@ Replicar a interface do [UpMedal](https://www.upmedal.com/desafios) aplicando VT
 
 ![screenshot](https://github.com/juslenelobeu/gama_academy-desafio-03-vtexio/blob/master/screenshot.jpeg?raw=true)
 
+## Link do workspace desse desafio
+
+[https://desafio3juslenelobeu--hiringcoders2021.myvtex.com](https://desafio3juslenelobeu--hiringcoders2021.myvtex.com/)
+
+### Este projeto contém um componente de Form Lead que esta salvando os dados no localStorage e no DynamoDB AWS
+Link do componente [https://github.com/juslenelobeu/store-block-template-vtex-io](https://github.com/juslenelobeu/store-block-template-vtex-io)
+
+## Video Preview
+https://youtu.be/yBDuNGQbphA
+<hr>
+
 1. Criei um **workspace** exclusivo para o desafio
 
 ```powershell
@@ -40,10 +51,6 @@ cd minimum-boilerplate-theme
 ```powershell
 vtex link
 ```
-
-Link do workspace desse desafio
-
-[https://desafio3juslenelobeu--hiringcoders2021.myvtex.com](https://desafio3juslenelobeu--hiringcoders2021.myvtex.com/)
 
 ## Tasks
 
