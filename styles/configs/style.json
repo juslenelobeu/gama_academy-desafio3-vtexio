@@ -61,7 +61,7 @@
       "base": "#303030",
       "base--inverted": "#111111",
       "action-primary": "#59FF02",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
@@ -78,7 +78,7 @@
     },
     "hover-background": {
       "action-primary": "#49cd02",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -94,7 +94,7 @@
     },
     "active-background": {
       "action-primary": "#50e002",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -110,7 +110,7 @@
     },
     "text": {
       "action-primary": "#59FF02",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "link": "#59FF02",
       "emphasis": "#f71963",
       "disabled": "#979899",
@@ -131,7 +131,7 @@
     },
     "hover-text": {
       "action-primary": "#49cd02",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "link": "#50e002",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -153,7 +153,7 @@
     },
     "border": {
       "action-primary": "#59FF02",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",
@@ -170,7 +170,7 @@
     },
     "hover-border": {
       "action-primary": "#49cd02",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -186,7 +186,7 @@
     },
     "active-border": {
       "action-primary": "#50e002",
-      "action-secondary": "#303030",
+      "action-secondary": "#ebeeea",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -220,7 +220,7 @@
       "muted-5": "#303030"
     },
     "hover-on": {
-      "action-primary": "#303030",
+      "action-primary": "##ebeeea",
       "action-secondary": "#59FF02",
       "emphasis": "#ffffff",
       "success": "#ffffff",
@@ -231,7 +231,7 @@
       "warning--faded": "#1a1a1a"
     },
     "active-on": {
-      "action-primary": "#303030",
+      "action-primary": "#ebeeea",
       "action-secondary": "#59FF02",
       "emphasis": "#ffffff",
       "success": "#ffffff",

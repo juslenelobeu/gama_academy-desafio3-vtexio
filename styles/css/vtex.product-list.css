@@ -1,0 +1,7 @@
+.productName {
+  color: #ebeeea!important;
+}
+
+:global(.vtex-minicart-2-x-minicartContentContainer) {
+  color: #ebeeea!important;
+}

@@ -68,7 +68,7 @@
       "drawer",
       "logo",
       "flex-layout.col#spacer",
-      "minicart.v2"
+      "minicart.v2#container"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -79,5 +79,10 @@
   },
   "drawer": {
     "children": []
+  },
+  "minicart.v2#container": {
+    "props": {
+      "blockClass": "minicart"
+    }
   }
 }

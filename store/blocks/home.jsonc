@@ -4,6 +4,24 @@
       "tab-layout#home"
     ]
   },
+  // modal
+  "modal-trigger#modalLead": {
+    "children": [
+      "modal-layout#modalLead"
+    ],
+    "props": { 
+      "trigger": "load"
+    }
+  },
+  "modal-layout#modalLead": {
+    "children": [
+      "leadsupmedal"
+    ],
+    "props": {
+      "blockClass": "content-modal"
+    }
+  },
+
   "tab-layout#home": {
     "children": [
       "tab-list#home",
@@ -119,6 +137,7 @@
   "tab-content#home": {
     "children": [
       "slider-layout#home",
+      "modal-trigger#modalLead",
       "tab-content.item#contentHome",
       "tab-content.item#promocao",
       "tab-content.item#corinthians",

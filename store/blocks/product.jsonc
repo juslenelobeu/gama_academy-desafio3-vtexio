@@ -1,8 +1,15 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#productPage"
+      "flex-layout.row#productPage",
+      "flex-layout.row#lead"
     ]
+  },
+  "flex-layout.row#lead": {
+    "children": ["leadsupmedal"],
+    "props": {
+      "blockClass": "leadPageProduct"
+    }
   },
   "flex-layout.row#productPage": {
     "children": [

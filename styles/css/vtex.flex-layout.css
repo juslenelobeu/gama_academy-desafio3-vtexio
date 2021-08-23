@@ -37,9 +37,16 @@
   background-color: #424242;
   padding: 1.5rem;
   border-radius: 5px;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
 }
 .flexRow--productShippingBuyButton :global(.vtex-button) {
   height: 50px;
   margin-top: 1rem;
+}
+
+/* lead on page product details */
+.flexRow--leadPageProduct {
+  width: 960px;
+  margin-inline: auto;
+  margin-bottom: 7rem;
 }
